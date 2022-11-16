@@ -9,7 +9,7 @@ void CreateArrayRndInt (int[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        Console.WriteLine($"Введите {i + 1}ое число: ");
+        Console.Write($"Введите {i + 1}-ое число: ");
         array[i] = Convert.ToInt32(Console.ReadLine());
     }
 }
